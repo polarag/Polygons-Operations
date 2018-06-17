@@ -38,7 +38,7 @@ When the program start, the user enters one Polygons Line in the defined above f
 
 | Level | Operation | Action Required from the Program |
 | --- | --- | --- |
-| 1 | **Number\_Polygons** | Print the number of polygons. |
+|  **Number\_Polygons** | Print the number of polygons. |
 | **Total\_Number\_Points** | Print the total number of points in all polygons. |
 | **Minimum\_X** | Print the minimum X value of all points. |
 | **Maximum\_X** | Print the maximum X value of all points |
@@ -47,7 +47,7 @@ When the program start, the user enters one Polygons Line in the defined above f
 | **Enclosing\_Rectangle** | Print the minimum Enclosing Rectangle that includes all polygons inside it. |
 | **Total\_Redundant\_Points** | The number of Redundant points in all polygons |
 | **Quit** | End program |
-| 2 | **Polygon\_Points** n | List all points of the nth polygon (neglecting redundant points) n start from 1 (1 means the first polygon) output should be in the same format of input polygons string i.e.
+|  **Polygon\_Points** n | List all points of the nth polygon (neglecting redundant points) n start from 1 (1 means the first polygon) output should be in the same format of input polygons string i.e.
 (1,1),(4,1),(4,2),(1,2) |
 | **Point\_Polygons** (2,1) | List all polygons IDs (ID is 1 for the first polygon, 2 for the second polygon,...)  of polygons that have the point (2,1) in their points list The output is a comma separated IDs of polygons having the point like2,4,6,10 |
 | **List\_Polygons\_Points More** n | List Polygons having more than n points excluding redundant points where n is an integer.The output is a comma separated IDs of polygons like2,4,6,10 |
@@ -60,7 +60,7 @@ When the program start, the user enters one Polygons Line in the defined above f
 | **List\_Triangles** | List all Polygon IDs of polygons that are triangles.The output is a comma separated IDs of polygons like2,4,6,10 |
 | **List\_Rectangles** | List all Polygon IDs of polygons that are rectangles. The output is a comma separated IDs of polygons like2,4,6,10 |
 | **List\_Trapezoid** | List all Polygon IDs of polygons that are trapezoid.The output is a comma separated IDs of polygons like2,4,6,10 |
-| 3 | **Inside\_Rectangle** (1,2),(1,5),(6,5),(6,1) | List all Polygon IDs of polygons that are inside the given rectangle. The output is a comma separated IDs of polygons like2,4,6,10 |
+|  **Inside\_Rectangle** (1,2),(1,5),(6,5),(6,1) | List all Polygon IDs of polygons that are inside the given rectangle. The output is a comma separated IDs of polygons like2,4,6,10 |
 | **Inside\_Circle** (1,2),5 | List all Polygon IDs of polygons that are inside the given Circle (Center, radius in the format (1,2),5 ). The output is a comma separated IDs of polygons like2,4,6,10 |
 | **Polygon\_Area** n | Print the polygon area of the nth polygon |
 | **Polygons\_Area\_Range** minArea,maxArea | List all Polygon IDs of polygons that have area &lt;= minArea and &gt;=maxArea. The output is a comma separated IDs of polygons like2,4,6,10 |
