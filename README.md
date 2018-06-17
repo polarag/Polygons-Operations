@@ -36,8 +36,8 @@ Two Connected Polygons are polygons that are intersecting or polygons which have
 
 When the program start, the user enters one Polygons Line in the defined above format then followed by **one or more** operations from the below table (each operation in a line). The program ends when it reads **Quit** operation.
 
-| Level | Operation | Action Required from the Program |
-| --- | --- | --- |
+|  Operation | Action Required from the Program |
+| --- | --- |
 |  **Number\_Polygons** | Print the number of polygons. |
 | **Total\_Number\_Points** | Print the total number of points in all polygons. |
 | **Minimum\_X** | Print the minimum X value of all points. |
@@ -72,7 +72,7 @@ When the program start, the user enters one Polygons Line in the defined above f
 (1,1),(4,1),(4,2),(1,2) |
 | **Largest\_Circle\_Inside** n | Print the largest circle that can inside the nth polygon. output should be in the format center, radius i.e.
 (1,1),5 |
-| Extra Marks | **Is\_Connected** i,j | Print TRUE if ith polygon is connected to the jth polygon |
+| **Is\_Connected** i,j | Print TRUE if ith polygon is connected to the jth polygon |
 | **Is\_Connected\_Group** 1,2,5 | Print TRUE if all polygon in the list are connected. |
 | **Maximum\_Intersecting\_Group** | List polygon IDs forming the largest set of polygons that are intersecting (any ID should intersect with All other IDs in the list) |
 | **Maximum\_Connected\_Group** | List polygon IDs forming the largest set of polygons that are connected directly or indirectly (through another polygon) |
