@@ -1,13 +1,6 @@
-
-
-
-
-
-
-
 **Project Description**
 
-It is required to develop a program to do operations on polygons data. The program use a defined string format to represent polygons. All polygons will be in one line input. For example:
+This  program is developed to do operations on polygons data. The program use a defined string format to represent polygons. All polygons must be in one line input. For example:
 
 **Polygons=[(1,1),(4,1),(4,5),(1,5);(3,4),(6,4),(6,12),(3,12)]**
 
