@@ -61,8 +61,6 @@ When the program start, the user enters one Polygons Line in the defined above f
 | **Is\_Intersecting** i,j | Print TRUE if ith polygon intersects the jth polygon |
 | **Intersecting\_Group** 3,5,6 | Print TRUE if the list of polygon are all intersecting with each other (each one is intersecting with all other polygons) |
 | **Largest\_Intersecting\_Pair** | Print the two IDs of polygons that are intersecting and having the largest sum of area. The output is a comma separated IDs of polygons like2,4 |
-| **Largest\_Rectangle\_Inside** n | Print the largest rectangle that can inside the nth polygon. output should be in the same format of input polygons string i.e.
-(1,1),(4,1),(4,2),(1,2) |
 | **Largest\_Circle\_Inside** n | Print the largest circle that can inside the nth polygon. output should be in the format center, radius i.e.
 (1,1),5 |
 | **Is\_Connected** i,j | Print TRUE if ith polygon is connected to the jth polygon |
